@@ -2,3 +2,5 @@ textbook-ex/
 study/
 .vscode/
 JavaStudy/.vscode/
+JavaStudy*/.vscode/
+JavaStudy*/README.md
