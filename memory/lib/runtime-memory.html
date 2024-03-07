@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>자바 메모리 구조 그림</title>
+    <link rel="stylesheet" href="runtime-memory.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div id="container">
+        <div id="icon-frame">
+            <p>frame이 코드 실행에 따라 스택에 입력되기도, 빠져나가기도 함.</p>
+            <div id="icons">
+                <span class="material-symbols-outlined">arrow_upward</span>
+                <span class="material-symbols-outlined">arrow_downward</span>
+            </div>
+        </div>
+        <ul id="memory-box">
+            <li id="method">
+                <h2>메서드 영역</h2>
+                <ul>
+                    <li><p>프로그램 실행 코드</p></li>
+                    <li><p>static 영역</p></li>
+                    <li><p>상수 풀</p></li>
+                </ul>
+            </li>
+            <li id="stack">
+                <h2>스택 영역</h2>
+                <ul>
+                    <li>
+                        <h3>method2 frame</h3>
+                        <p>지역 변수</p>
+                        <p>매개변수</p>
+                    </li>
+                    <li>
+                        <h3>method1 frame</h3>
+                        <p>지역 변수</p>
+                        <p>매개변수</p>
+                    </li>
+                </ul>
+            </li>
+            <li id="heap">
+                <h2>힙 영역</h2>
+                <p>객체가 동적으로 생성됨.</p>
+                <div class="object">
+                    <p>객체1</p>
+                    <p>id: 21</p>
+                </div>
+                <div class="object">
+                    <p>객체2</p>
+                    <p>id: 12</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

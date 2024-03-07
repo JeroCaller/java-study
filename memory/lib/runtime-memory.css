@@ -1,0 +1,48 @@
+#container {
+    position: relative;
+}
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+li {
+    border: 3px solid grey;
+    padding: 10px;
+}
+p {
+    text-align: center;
+}
+
+#icon-frame {
+    position: absolute;
+    top: -20%;
+    left: 35%;
+}
+#icons {
+    position: absolute;
+    left: 40%;
+}
+
+#memory-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+#memory-box > li {
+    margin-right: 10px;
+}
+
+#method > ul {
+    margin-top: 35%;
+}
+
+#stack > ul > li > p {
+    border: 2px dashed brown;
+}
+#stack {
+    border-top: 2px dashed;
+}
+
+.object {
+    border: 2px solid black;
+}
