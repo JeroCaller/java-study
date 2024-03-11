@@ -31,8 +31,8 @@ class FoodMarketUser extends SiteUser {
         siteName = "푸드 마켓";
     }
 
-    void printFoodMarket() {
-        printProfile();
+    void printProfile() {
+        super.printProfile();
         System.out.println("가장 좋아하는 음식 : " + favoriteFood);
         System.out.println("======================");
     }
@@ -47,8 +47,8 @@ class BookStoreUser extends SiteUser {
         siteName = "서점";
     }
 
-    void printBookStore() {
-        printProfile();
+    void printProfile() {
+        super.printProfile();
         System.out.println("현재 보유 책 권수 : " + myBookNums);
         System.out.println("======================");
     }
@@ -58,10 +58,10 @@ public class MySite {
     public static void main(String[] args) {
         FoodMarketUser foodUser = new FoodMarketUser("healthyFood", 2000, "사과");
         foodUser.shoppingBasket = new ArrayList(Arrays.asList("바나나", "사과"));
-        foodUser.printFoodMarket();
+        foodUser.printProfile();
 
         BookStoreUser bookUser = new BookStoreUser("bookAndLib", 1000, 12);
         bookUser.shoppingBasket = new ArrayList(Arrays.asList("자바에 대한 모든 것", "코딩의 미래"));
-        bookUser.printBookStore();
+        bookUser.printProfile();
     }
 }
