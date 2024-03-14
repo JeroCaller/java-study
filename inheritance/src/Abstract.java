@@ -1,3 +1,5 @@
+import java.lang.Math;
+
 abstract class ChessPiece {
     int x;
     int y;
@@ -47,6 +49,6 @@ public class Abstract {
         pawn1.move(2, 2);
         rook1.move(1, 5);
 
-        ChessPiece cp = new ChessPiece(3, 4, "hi");  // 추가된 코드.
+        //ChessPiece cp = new ChessPiece(3, 4, "hi");  // 추가된 코드.
     }
 }
