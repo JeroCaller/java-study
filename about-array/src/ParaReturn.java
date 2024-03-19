@@ -3,6 +3,7 @@ class ParaReturn {
         StringBuilder sb = new StringBuilder();
 
         // 향상된 for문 (Enhanced for)
+        // 배열 순회 시 사용할 수 있는 문법이다.
         for(String token : strSource) {
             sb.append(token);
         }

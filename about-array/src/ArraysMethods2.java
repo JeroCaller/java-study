@@ -6,7 +6,8 @@ class ArraysMethods2 {
         boolean[] boolArr2 = {true, false, true};
         boolean[] boolArr3 = {false, true, false};
         boolean[] boolArr4 = {true};
-        boolean[] boolArr5 = {true, true, true, true};
+        // 배열 길이가 달라도 false를 반환.
+        boolean[] boolArr5 = {true, false, true, true};
 
         System.out.println(Arrays.equals(boolArr, boolArr2));
         System.out.println(Arrays.equals(boolArr, boolArr3));

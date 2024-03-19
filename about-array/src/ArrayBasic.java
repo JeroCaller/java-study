@@ -1,5 +1,6 @@
 class ArrayBasic {
     public static void main(String[] args) {
+        // 배열 선언.
         String[] books = new String[3];
         int bookSold[] = new int[3];
 
