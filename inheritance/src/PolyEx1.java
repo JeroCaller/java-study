@@ -6,8 +6,8 @@ class Korean extends TextBook {
     Korean() {bookKind = "국어";}
 }
 
-class Math extends TextBook {
-    Math() {bookKind = "수학";}
+class Math_ extends TextBook {
+    Math_() {bookKind = "수학";}
 }
 
 class English extends TextBook {
@@ -23,7 +23,7 @@ class Study {
 public class PolyEx1 {
     public static void main(String[] args) {
         Korean koreanBook = new Korean();
-        Math mathBook = new Math();
+        Math mathBook = new Math_();
         English engBook = new English();
         Study study = new Study();
 
