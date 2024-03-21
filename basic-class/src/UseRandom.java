@@ -14,6 +14,8 @@ class UseRandom {
         int rangeEnd = 10;
         int repeatNum = 10;
 
+        System.out.println(completelyRand.nextInt());
+
         printRandRepeatly(completelyRand, rangeEnd, repeatNum);
         printRandRepeatly(seedRand, rangeEnd, repeatNum);
     }

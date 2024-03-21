@@ -19,10 +19,10 @@ class EqualsEx {
     public static void main(String[] args) {
         User4 me = new User4("bowWow123");
         User4 you = new User4("bowWow123");
-        String meStr = "bowWow123";
-        String youStr = "bowWow123";
+        String meStr = new String("bowWow123");
+        String youStr = new String("bowWow123");
 
-        System.out.println(meStr.equals(youStr));
         System.out.println(me.equals(you));
+        System.out.println(meStr.equals(youStr));
     }
 }

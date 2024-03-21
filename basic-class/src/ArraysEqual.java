@@ -31,8 +31,8 @@ class ArraysEqual {
     }
     
     public static void main(String[] args) {
-        MyInteger[] arr1 = {new MyInteger(1), new MyInteger(2)};
-        MyInteger[] arr2 = {new MyInteger(1), new MyInteger(2)};
+        MyInteger[] arr1 = {new MyInteger(24), new MyInteger(7)};
+        MyInteger[] arr2 = {new MyInteger(24), new MyInteger(7)};
 
         printMyIntegerArray(arr1);
         printMyIntegerArray(arr2);
