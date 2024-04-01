@@ -1,0 +1,4 @@
+A
+Test code.
+If you wanna write or read non-english such as Korean in the text file, 
+It's recommended that you use InputStreamReader and OutputStreamWriter instead.
