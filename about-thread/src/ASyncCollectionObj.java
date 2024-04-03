@@ -15,14 +15,14 @@ class ASyncCollectionObj {
         }
     }
 
-    public static void doHeal() {
+    public static synchronized void doHeal() {
         ListIterator<Integer> itr = unitsHp.listIterator();
         while(itr.hasNext()) {
             itr.set(itr.next() + 1);
         }
     }
 
-    public static void doAttack() {
+    public static synchronized void doAttack() {
         ListIterator<Integer> itr = unitsHp.listIterator();
         while(itr.hasNext()) {
             itr.set(itr.next() - 1);
